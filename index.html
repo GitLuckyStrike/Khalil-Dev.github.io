@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>K.Boussena | Portfolio</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="style.css" as="style" />
+	<script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js">
+	</script>
+
+</head>
+
+<body>
+	<!-------------------- CONTACT SECTION  -------------------->
+
+	<section id="contact">
+		<h1 class="headings">CONTACT ME</h1>
+		<form action="contact.php" method="POST" class="form">
+			<input
+          type="text"
+          name="name"
+          class="input"
+          placeholder="First name"
+          required
+        />
+        <input
+        type="email"
+        name="email"
+        class="input"
+        placeholder="Your email"
+        required
+      />
+        <input
+          type="text"
+          name="subject"
+          class="input"
+          placeholder="Subject"
+          
+        />
+       
+        <textarea
+          name="message"
+          id="msg"
+          cols="30"
+          rows="10"
+          placeholder="Please enter your words here :)"
+          maxlength="250"
+          required
+        ></textarea>
+        
+        <button type="submit" name="send" id="send" value="submit"><i class="fas fa-comment"></i>&nbsp;Send</i></button>
+      </form>
+    </section>
+     </body>
+  <!-------- SCRIPT  -------->
+
+</html>
